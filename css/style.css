@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+	background-color: gray;
+	font-family: Arial,Helvitica,sans-serif;
+}
+h1{
+	
+	font-weight: bold;
+	font-style: italic;
+	font-size: 175%;
+	color:black;
+	text-align: center;
+	margin-top:30px;
+	margin-bottom: 30px;
+
+}
+
+.row > div{
+	background-color: lightblue;
+	border: 1px solid black;
+	position: relative;
+	float:left;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	
+
+}
+
+
+h3 {
+	
+	width:90px;
+	height:30px;
+	border: 1px solid black;
+	
+	text-align:center;
+	font-weight: bold;
+   float:right;
+	
+}	
+#chic{
+	background-color: purple;
+}
+#beef{
+	background-color:magenta;
+}
+#sushi{
+	background-color: pink;
+}
+
+
+p{
+	
+	padding: 5px;
+	margin: 5px;
+	clear:right;
+	font-size:75%;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width:992px) {
+	.col-lg-3{
+		float:left;
+		width:30%;
+	}
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.col-md-2{
+		float:left;
+		width : 46%
+	}
+	#div3{
+		width:95%;
+	}
+}
+
+@media (max-width:767px){
+	.col-sm-1{
+		float:left;
+		width:90%;
+	}
+}
